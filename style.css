@@ -16,9 +16,17 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    /* background-image: url(images/shahnawaz.png.png); */
     background-size: cover;
     background-position: center ;
+    /* position: absolute; */
+
+}
+
+#header .container .header-image{
+    position: absolute;
+    top: 25px;
+    right: 80px;
 
 }
 .container{
@@ -377,11 +385,11 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
    #header{
-    background-image: url(./images/phone-background.png);
+    /* background-image: url(./images/shahnawaz.png.png); */
 
    } 
    .header-text {
-    margin-top: 120%;
+    margin-top: 70%;
     font-size: 16px;
    }
    .header-text h1{
@@ -393,6 +401,11 @@ nav .fa-solid{
     display: block;
     font-size: 25px;
 }
+
+#header .container .header-image{
+    display: none;
+}
+
 
 
 nav ul {
